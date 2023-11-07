@@ -14,3 +14,5 @@ This would be the first component which should be up and running. Admin site wou
 Assumption would be that credential provided at the time of deployment of Api,have enough permissions to create entity. The type of database that it can support.
 * dynamodb
 
+# UI Or Blog Site
+This is going to be the public site in form of website or blogs. this UI can be customized and can be different and as per the choice of user.
