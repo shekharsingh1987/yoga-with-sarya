@@ -1,6 +1,8 @@
 baseURL = 'https://shekharsingh1987.github.io/yoga-with-sarya/'
 languageCode = 'en-us'
 theme = "nightfall"
+relativeURLs = true
+canonifyURLs = true
 
 [menu]
     [[menu.header]]
