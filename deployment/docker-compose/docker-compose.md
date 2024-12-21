@@ -1,1 +1,0 @@
-# Docker-Compose mode of deployment
