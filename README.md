@@ -12,3 +12,8 @@ I am also an Android developer, blending creativity with technology to build inn
 # Reach me out
 
 - Email: sherojdev@gmail.com
+
+# Post a new blog
+```bash
+hugo new content content/posts/< post-title >.md 
+```
