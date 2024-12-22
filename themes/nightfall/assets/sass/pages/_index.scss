@@ -1,3 +1,31 @@
+.image-container {
+    // Set the desired width of the container
+    width: 100%; // Adjust as needed, e.g., 80%, 600px, etc.
+
+    // Maintain the aspect ratio
+    aspect-ratio: 16 / 9; // Adjust to your desired aspect ratio
+
+    // Ensure the container doesn't exceed the viewport width
+    max-width: 100%;
+
+    // Optional: Add styling for better presentation
+    margin: 0 auto; // Centers the container
+    overflow: hidden; // Ensures no overflow if the image is larger
+    border-radius: 8px; // Adds rounded corners
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Adds a subtle shadow
+}
+
+.image-container img {
+    // Make the image fill the container
+    width: 100%;
+    height: 100%;
+
+    // Maintain the image's aspect ratio
+    object-fit: cover;
+
+    // Optional: Smooth out image scaling
+    display: block;
+}
 .indexWrapper {
     display: flex;
     flex-direction: column;
